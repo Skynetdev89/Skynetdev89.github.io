@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VPN CUSTOM FILES BY SKYNETDEV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      padding: 40px;
+    }
+    h1 {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    .config-card {
+      margin: 15px auto;
+      padding: 15px;
+      max-width: 500px;
+      border: 1px solid #2c5364;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.05);
+    }
+    .config-card strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 1.1em;
+    }
+    a {
+      color: #00b7ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>VPN CUSTOM FILES BY SKYNETDEV</h1>
+  <p>Configs for East African networks using UDP protocol.</p>
+
+  <!-- Config cards -->
+  <div class="config-card">
+    <strong>Uganda – MTN UDP</strong>
+    <a href="https://t.me/zivpnbySkynetDev" target="_blank">Get file via Telegram</a>
+  </div>
+
+  <div class="config-card">
+    <strong>Kenya – Safaricom UDP</strong>
+    <a href="https://t.me/zivpnbySkynetDev" target="_blank">Get file via Telegram</a>
+  </div>
+
+  <div class="config-card">
+    <strong>Tanzania – Airtel UDP</strong>
+    <a href="https://t.me/zivpnbySkynetDev" target="_blank">Get file via Telegram</a>
+  </div>
+
+  <footer>
+    © 2025 SKYNETDEV™ | Powered by GitHub Pages
+  </footer>
+</body>
+</html>
