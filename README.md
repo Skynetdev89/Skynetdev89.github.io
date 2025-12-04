@@ -18,7 +18,7 @@ This repository hosts VPN configuration files for multiple protocols, designed f
 
 ## 📲 Updates & Community
 For the latest releases and support, join the Telegram channel:  
-👉 [Telegram: @Skynetdev89](https://t.me/Skynetdev89)
+👉 [Telegram: @zivpnbySkynetDev](https://t.me/zivpnbySkynetDev)
 
 ---
 
