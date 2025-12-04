@@ -35,6 +35,25 @@
     a.telegram-link:hover {
       background: #006699;
     }
+    ul.list {
+      list-style: none;
+      padding: 0;
+    }
+    ul.list li {
+      margin: 10px 0;
+    }
+    ul.list a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #444;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+    ul.list a:hover {
+      background: #222;
+    }
     footer {
       margin-top: 50px;
       font-size: 0.9em;
@@ -45,28 +64,29 @@
 <body>
   <h1>VPN CUSTOM FILES BY SKYNETDEV</h1>
   <p>Get the latest VPN custom files, 
-  <a class="telegram-link" href="https://t.me/Blazedev1" target="_blank">Join Telegram</a>
+    <a class="telegram-link" href="https://t.me/zivpnbySkynetDev" target="_blank">Join Telegram</a>
   </p>
 
   <h2>Latest Drops</h2>
   <ul id="dropList" class="list"></ul>
 
   <script>
-  fetch('https://api.github.com/repos/Skynetdev89/Skynetdev89.github.io/contents/drops')
-    .then(res => res.json())
-    .then(files => {
-      const list = document.getElementById('dropList');
-      files.forEach(file => {
-        if (file.name.endsWith('.tik') || file.name.endsWith('.conf')) {
-          const li = document.createElement('li');
-          li.innerHTML = `<a href="./drops/${file.name}" download>${file.name}</a>`;
-          list.appendChild(li);
-        }
+    fetch('https://api.github.com/repos/Skynetdev89/Skynetdev89.github.io/contents/drops')
+      .then(res => res.json())
+      .then(files => {
+        const list = document.getElementById('dropList');
+        files.forEach(file => {
+          if (file.name.endsWith('.tik') || file.name.endsWith('.conf')) {
+            const li = document.createElement('li');
+            li.innerHTML = `<a href="./drops/${file.name}" download>${file.name}</a>`;
+            list.appendChild(li);
+          }
+        });
       });
-    });
   </script>
 
   <footer>
     © 2025 SKYNETDEV™ | Powered by GitHub
   </footer>
 </body>
+</html>
